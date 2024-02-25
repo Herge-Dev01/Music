@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | Audio</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="fa/css/font-awesome.min.css"/>
+    <link href="Bootstrap/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio src="" id="audio" type = "audio/mpeg">
+    </audio>
+    <div class="music-player">
+        <h1 class="music-name text-dark">Song One</h1>
+        <p class="artist-name text-dark">artist</p>
+        <div class="disk"></div>
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time text-dark">00:00</span>
+            <span class="song-duration text-dark">00:00</span>
+        </div>
+        <div class="controls">
+            <button class="prev">
+                <i class="fa fa-backward"></i>
+            </button>
+           <button class="play-btn">
+            <span></span>
+            <span></span>
+           </button>
+           <button class="next">
+            <i class="fa fa-forward"></i>
+        </button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
